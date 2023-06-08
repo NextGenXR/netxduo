@@ -6,7 +6,7 @@ project(netxduo
 )    
 
 option(NXD_ENABLE_FILE_SERVERS "Includes a dependency on FileX to support 'server' protocol handlers" ON)
-option(NXD_ENABLE_AZURE_IOT "Enable Azure IoT" OFF)
+option(NXD_ENABLE_AZURE_IOT "Enable Azure IoT" ON)
 option(NX_AZURE_DISABLE_IOT_SECURITY_MODULE "Disable Azure IoT Security Module" OFF)
 
 if(NOT DEFINED THREADX_ARCH)
